@@ -1,0 +1,530 @@
+(export 
+  (version D) 
+  (design 
+    (source "C:\\Users\\Ryan\\Documents\\KiCAD Files-20210911T161311Z-001\\KiCAD Files\\AMS_Latch\\AMS_Latch.sch") 
+    (date "5/1/2022 8:28:05 PM") 
+    (tool "Eeschema (5.1.10)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "AMS Latch") 
+        (company "Terrier Motorsport") 
+        (rev) 
+        (date 2020-07-21) 
+        (source ams_latch_codr_f24.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "Latch interface between AMS and Shutdown Loop"))))) 
+  (components 
+    (comp 
+      (ref R1) 
+      (value 1K) 
+      (footprint Motorsport_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_Motorsport) 
+      (datasheet ~) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F1CD0D3)) 
+    (comp 
+      (ref D2) 
+      (value LED) 
+      (footprint Motorsport_Footprints:LED_D5.0mm_Motorsport) 
+      (datasheet ~) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F1CFC8C)) 
+    (comp 
+      (ref SW1) 
+      (value SW_Push) 
+      (footprint Motorsport_Footprints:SW_PUSH_6mm_Motorsport) 
+      (datasheet ~) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F1D95AE)) 
+    (comp 
+      (ref K1) 
+      (value EC2-12TNU) 
+      (footprint Motorsport_Footprints:Relay_DPDT_Kemet_EC2_DoubleCoil_Motorsport) 
+      (datasheet https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part EC2-12TNU) 
+        (description "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F18AE63)) 
+    (comp 
+      (ref J1) 
+      (value Molex_Connector) 
+      (footprint Motorsport_Footprints:39-28-8020_Motorsport) 
+      (datasheet http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml) 
+      (fields 
+        (field 
+          (name Allied_Number) 70266921) 
+        (field 
+          (name Description) "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+        (field 
+          (name Height) 13.1) 
+        (field 
+          (name Manufacturer_Name) Molex) 
+        (field 
+          (name Manufacturer_Part_Number) 39-28-8020) 
+        (field 
+          (name "Mouser Part Number") 538-39-28-8020) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D) 
+        (field 
+          (name "RS Part Number") 6705423P) 
+        (field 
+          (name "RS Price/Stock") http://uk.rs-online.com/web/p/products/6705423P)) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Molex_Connector) 
+        (description "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F946191)) 
+    (comp 
+      (ref J2) 
+      (value Molex_Connector) 
+      (footprint Motorsport_Footprints:39-28-8020_Motorsport) 
+      (datasheet http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml) 
+      (fields 
+        (field 
+          (name Allied_Number) 70266921) 
+        (field 
+          (name Description) "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+        (field 
+          (name Height) 13.1) 
+        (field 
+          (name Manufacturer_Name) Molex) 
+        (field 
+          (name Manufacturer_Part_Number) 39-28-8020) 
+        (field 
+          (name "Mouser Part Number") 538-39-28-8020) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D) 
+        (field 
+          (name "RS Part Number") 6705423P) 
+        (field 
+          (name "RS Price/Stock") http://uk.rs-online.com/web/p/products/6705423P)) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Molex_Connector) 
+        (description "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F94AA5C)) 
+    (comp 
+      (ref J3) 
+      (value Molex_Connector) 
+      (footprint Motorsport_Footprints:39-28-8020_Motorsport) 
+      (datasheet http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml) 
+      (fields 
+        (field 
+          (name Allied_Number) 70266921) 
+        (field 
+          (name Description) "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+        (field 
+          (name Height) 13.1) 
+        (field 
+          (name Manufacturer_Name) Molex) 
+        (field 
+          (name Manufacturer_Part_Number) 39-28-8020) 
+        (field 
+          (name "Mouser Part Number") 538-39-28-8020) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D) 
+        (field 
+          (name "RS Part Number") 6705423P) 
+        (field 
+          (name "RS Price/Stock") http://uk.rs-online.com/web/p/products/6705423P)) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Molex_Connector) 
+        (description "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F94C2BD)) 
+    (comp 
+      (ref J4) 
+      (value Molex_Connector) 
+      (footprint Motorsport_Footprints:39-28-8020_Motorsport) 
+      (datasheet http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml) 
+      (fields 
+        (field 
+          (name Allied_Number) 70266921) 
+        (field 
+          (name Description) "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+        (field 
+          (name Height) 13.1) 
+        (field 
+          (name Manufacturer_Name) Molex) 
+        (field 
+          (name Manufacturer_Part_Number) 39-28-8020) 
+        (field 
+          (name "Mouser Part Number") 538-39-28-8020) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D) 
+        (field 
+          (name "RS Part Number") 6705423P) 
+        (field 
+          (name "RS Price/Stock") http://uk.rs-online.com/web/p/products/6705423P)) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Molex_Connector) 
+        (description "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F94C7E0)) 
+    (comp 
+      (ref D1) 
+      (value 1N4001) 
+      (footprint Motorsport_Footprints:D_DO-41_SOD81_P10.16mm_Horizontal_Motorsport) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Diode) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F94DAF9)) 
+    (comp 
+      (ref D3) 
+      (value 1N4001) 
+      (footprint Motorsport_Footprints:D_DO-41_SOD81_P10.16mm_Horizontal_Motorsport) 
+      (libsource 
+        (lib Motorsport_Symbols) 
+        (part Diode) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F952940))) 
+  (libparts 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part Diode) 
+      (description "50V 1A General Purpose Rectifier Diode, DO-41") 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) Diode)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part EC2-12TNU) 
+      (description "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil") 
+      (docs https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf) 
+      (footprints 
+        (fp Relay*THT*Kemet*EC2*DoubleCoil*)) 
+      (fields 
+        (field 
+          (name Reference) K) 
+        (field 
+          (name Value) EC2-12TNU)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part Molex_Connector) 
+      (description "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+      (docs http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Molex_Connector) 
+        (field 
+          (name Description) "Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole") 
+        (field 
+          (name Height) 13.1) 
+        (field 
+          (name Manufacturer_Name) Molex) 
+        (field 
+          (name Manufacturer_Part_Number) 39-28-8020) 
+        (field 
+          (name "Mouser Part Number") 538-39-28-8020) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D) 
+        (field 
+          (name "RS Part Number") 6705423P) 
+        (field 
+          (name "RS Price/Stock") http://uk.rs-online.com/web/p/products/6705423P) 
+        (field 
+          (name Allied_Number) 70266921)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1+) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Motorsport_Symbols) 
+      (part SW_Push) 
+      (description "Push button switch, generic, two pins") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Motorsport_Symbols) 
+      (uri "C:/Program Files/KiCad/KiCAD Files/Motorsport_Library/Motorsport_Symbols.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(K1-Pad5)") 
+      (node 
+        (ref K1) 
+        (pin 5))) 
+    (net 
+      (code 2) 
+      (name "Net-(K1-Pad4)") 
+      (node 
+        (ref K1) 
+        (pin 4))) 
+    (net 
+      (code 3) 
+      (name "Net-(K1-Pad3)") 
+      (node 
+        (ref K1) 
+        (pin 3))) 
+    (net 
+      (code 4) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 12))) 
+    (net 
+      (code 5) 
+      (name "Net-(J1-Pad1)") 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 10))) 
+    (net 
+      (code 6) 
+      (name "Net-(D3-Pad1)") 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 6)) 
+      (node 
+        (ref SW1) 
+        (pin 1))) 
+    (net 
+      (code 7) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name GND) 
+      (node 
+        (ref K1) 
+        (pin 7)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 1))) 
+    (net 
+      (code 9) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref K1) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 1))) 
+    (net 
+      (code 10) 
+      (name "Net-(J2-Pad2)") 
+      (node 
+        (ref J2) 
+        (pin 2))) 
+    (net 
+      (code 11) 
+      (name "Net-(J3-Pad1)") 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 8))) 
+    (net 
+      (code 12) 
+      (name VCC) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 9)))))

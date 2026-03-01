@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EC2-4.5TNU
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil
+K signal relay double pole double throw DPDT DC coil double dual coil latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+#End Doc Library

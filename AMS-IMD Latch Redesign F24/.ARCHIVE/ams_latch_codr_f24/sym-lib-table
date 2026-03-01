@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AMS_Latch-rescue")(type "KiCad")(uri "${KIPRJMOD}/AMS_Latch-rescue.kicad_sym")(options "")(descr ""))
+)
